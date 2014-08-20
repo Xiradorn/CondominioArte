@@ -1,7 +1,8 @@
 /*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * Project: Condominio dell'arte Stylesheet - Showroom Made in Italy - Basso Lazio
+ * Description: Stile per pagina associati.html - Basato su Bootstrap v3
+ * Author: Sir Xiradorn - http://xiradorn.it - Tony frost
+ * Copyright Condominio Dell'Arte - All Rights reserved - 2014
  */
 
 body {
@@ -22,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #1E90FF;
 }
 
 h1,
@@ -63,7 +64,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #1E90FF;
 }
 
 hr.star-primary {
@@ -82,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #1E90FF;
 }
 
 header .container {
@@ -181,7 +182,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #1E90FF; /* older color #18bc9c */
 }
 
 @media(max-width:767px) {
@@ -265,7 +266,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #1E90FF;
     background: #fff;
 }
 
@@ -318,7 +319,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #1E90FF;
 }
 
 form .row:first-child .floating-label-form-group {

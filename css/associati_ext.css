@@ -1,0 +1,44 @@
+/*!
+ * Project: Condominio dell'arte Stylesheet - Showroom Made in Italy - Basso Lazio
+ * Description: Stile aggiunto in supporto ad associati.css - Basato su Bootstrap v3
+ * Author: Sir Xiradorn - http://xiradorn.it - Tony frost
+ * Copyright Condominio Dell'Arte - All Rights reserved - 2014
+ */
+ 
+nav.navbar-default, footer .footer-below {
+	background-color: #eeeeee;
+}
+
+nav.navbar-default a, nav.navbar-default a:link, a, nav.navbar-default a:visited {
+	color: #2C3E50;
+}
+
+a:hover, a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #1E90FF;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	color: #ffffff;
+	background-color: #aaaaaa;
+}
+
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #1E90FF;
+	background-color: #2C3E50;
+}
+
+section.success {
+	background-color: #1E90FF;
+}
+
+.portfolio-link {
+	border: 1px dashed #eeeeee;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+	background-color: rgba(30, 144, 255, .85);
+}
+
+.copyright {
+	color: #2C3E50;
+}
