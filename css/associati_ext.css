@@ -4,9 +4,17 @@
  * Author: Sir Xiradorn - http://xiradorn.it - Tony frost
  * Copyright Condominio Dell'Arte - All Rights reserved - 2014
  */
- 
+
+header {
+	background: url("http://www.condominiodellarte.com/core/wp-content/uploads/slides-itinerante.jpg") transparent center center / cover fixed no-repeat;
+}
+
+section {
+	padding: 75px 0;
+}
+
 nav.navbar-default, footer .footer-below {
-	background-color: #eeeeee;
+	background-color: #fefefe;
 }
 
 nav.navbar-default a, nav.navbar-default a:link, a, nav.navbar-default a:visited {
@@ -18,21 +26,21 @@ a:hover, a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .n
 }
 
 .navbar-default .navbar-nav > .active > a {
-	color: #ffffff;
-	background-color: #aaaaaa;
+	color: #2C3E50;
+	background-color: #f4f4f4;
 }
 
 .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #1E90FF;
-	background-color: #2C3E50;
+	background-color: #f4f4f4;
 }
 
 section.success {
 	background-color: #1E90FF;
 }
 
-.portfolio-link {
-	border: 1px dashed #eeeeee;
+.portfolio-link, .img-responsive.img-centered {
+	border: 1px dashed rgba(30, 144, 255, .5);
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -40,5 +48,9 @@ section.success {
 }
 
 .copyright {
+	color: #2C3E50;
+}
+
+.copyright a:hover, .copyright a:focus {
 	color: #2C3E50;
 }
