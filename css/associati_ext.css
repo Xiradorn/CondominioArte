@@ -20,6 +20,21 @@ section {
 	padding: 75px 0;
 }
 
+.navbar-fixed-top {
+	padding: 15px 0px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.navbar .navbar-nav {
+	letter-spacing: 0px;
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+
+header .intro-text .skills {
+	font-weight: 500;
+}
+
 nav.navbar-default, footer .footer-below {
 	background-color: #fefefe;
 }
@@ -60,4 +75,13 @@ section.success {
 
 .copyright a:hover, .copyright a:focus {
 	color: #2C3E50;
+}
+
+footer .footer-above {
+	background: url('../img/banner-bg.jpg') transparent no-repeat fixed center center / cover;
+	text-shadow: 0px 2px 2px black;
+}
+
+.navbar-default .navbar-toggle {
+	background: #2C3E50;
 }

@@ -31,3 +31,8 @@
 	padding-top: 10%;
 	padding-bottom: 10%;
 }
+
+.navbar-default .navbar-toggle {
+	background: #2C3E50;
+	border: #2C3E50;
+}
