@@ -16,6 +16,9 @@
 	<!-- Associati Page CSS -->
     <link href="css/associati.css" rel="stylesheet" type="text/css">
     <link href="css/associati_ext.css" rel="stylesheet" type="text/css">
+	
+	<!-- Validatore form -->
+    <script src="js/contact_me.js"></script>
 
     <!-- Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -92,29 +95,35 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form">
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="name">Nome</label>
-                                <input class="form-control" type="text" name="name" placeholder="Nome">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Nome</label>
+                                <input type="text" class="form-control" placeholder="Nome" id="name" required data-validation-required-message="Per favore inserisci il tuo Nome.">
+                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="email">Indirizzo Email</label>
-                                <input class="form-control" type="email" name="email" placeholder="Indirizzo email">
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Indirizzo Email</label>
+                                <input type="email" class="form-control" placeholder="Indirizzo Email" id="email" required data-validation-required-message="Per favore inserisci il tuo Indirizzo Email.">
+                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 floating-label-form-group">
-                                <label for="message">Messaggio</label>
-                                <textarea placeholder="Messaggio" class="form-control" rows="5"></textarea>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Messaggio</label>
+                                <textarea rows="5" class="form-control" placeholder="Messaggio" id="message" required data-validation-required-message="Per favore inserisci il tuo messaggio."></textarea>
+                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <br>
+                        <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-lg btn-success">Invia il messaggio</button>
+                                <button type="submit" class="btn btn-success btn-lg">Invia</button>
                             </div>
                         </div>
                     </form>
