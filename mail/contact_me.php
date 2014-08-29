@@ -18,7 +18,7 @@ $_POST['email'] = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$to = "xiradorn@gmail.com"; // Add your email address
+$to = "info@condominiodellarte.com"; // Add your email address
 	
 // Composizione header di base per la mail
 // Parsing HTML per la mail
