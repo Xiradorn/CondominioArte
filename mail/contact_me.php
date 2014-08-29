@@ -12,12 +12,13 @@ if(empty($_POST['name'])  || empty($_POST['email']) || empty($_POST['message'])	
 	echo "Nessun Argomento Presente!";
 	return false;
 }
+$_POST['email'] = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL); 
 	
 // Campi presi dalla Form
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$to = "info@condominiodellarte.com"; // Add your email address
+$to = "xiradorn@gmail.com"; // Add your email address
 	
 // Composizione header di base per la mail
 // Parsing HTML per la mail
