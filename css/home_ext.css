@@ -36,3 +36,18 @@
 	background: #2C3E50;
 	border: #2C3E50;
 }
+
+.copyright {
+	text-align: center;
+}
+
+@media(min-width:768px) {
+	.navbar-fixed-top.navbar-shrink .container {
+		padding-top: 10px;
+		padding-bottom: 10px;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
