@@ -85,3 +85,5 @@ footer .footer-above {
 .navbar-default .navbar-toggle {
 	background: #2C3E50;
 }
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus { background-color: #f4f4f4; color: #2c3e50; }
